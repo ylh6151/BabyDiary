@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="kr.co.BabyDiary"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".BabyDiaryMain"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                   android:screenOrientation="portrait"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name = ".IntentInsert"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+		>
+		</activity>
+		<activity android:name = ".IntentModify" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"></activity>
+    	<activity android:name = ".IntentSelect" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"></activity>
+    
+    	<activity android:name=".selfcareMain" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".babyCare" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".careSchedule" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".careSearch" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".selSche" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".selCare" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".memo_list" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".memo_insert" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".memo_view" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        
+        <activity android:name=".GrowthMain" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".Growthweight" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".Growthheight" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".GrowthHead" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".GrowthTab" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        
+        <activity android:name = ".BabyMain" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".Medical_records" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".Medical_records_update" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        
+        <activity android:name = ".BabyGuide" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide1" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide2" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide3" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide4" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide5" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide6" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide7" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide8" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide9" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide10" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide11" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide12" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide13" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuide14" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name = ".BabyGuideList" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        
+        <activity android:name = "DiaryViewMain" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+</manifest> 

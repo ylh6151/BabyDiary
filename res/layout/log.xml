@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	
+	>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView
+			android:id="@+id/TextView01"
+			android:layout_width="wrap_content"
+			android:text="체중 : "
+			android:layout_height="wrap_content"
+			></TextView>
+			<EditText
+			android:id="@+id/edtWeight"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content" 
+			android:inputType="numberDecimal" />
+			<TextView
+			android:text="kg"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView
+			android:text="신장 : "
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+			<EditText
+			android:id="@+id/edtTall"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content" 
+			android:inputType="numberDecimal"	/>
+			<TextView
+			android:text="cm"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView
+			android:text="두위 : "
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+			<EditText
+			android:id="@+id/edtHead"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content" 
+			android:inputType="numberDecimal"	/>
+			<TextView
+			android:text="cm"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView
+			android:text="날짜 : "
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+			<Button
+			android:id="@+id/btnDate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></Button>
+		</LinearLayout>
+</LinearLayout>
+

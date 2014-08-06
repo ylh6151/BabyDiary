@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation = "vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/orangecheck">
+<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:background="@drawable/titlemedic"></ImageView>
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:text="진료일 : "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor = "#000000"/>
+	<TextView
+		android:text="Year/Month"
+		android:id="@+id/txtYear"
+		android:layout_width="170px"
+		android:layout_height="wrap_content"
+		android:textColor = "#000000"/>
+	<Button
+		android:text="날짜 선택"
+		android:id="@+id/btnDate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:text="증상 : "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor = "#000000"/>
+	<EditText
+		android:hint="증상을 입력하세요"
+		android:id="@+id/edtSymptom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:text="진단 : "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor = "#000000"/>
+	<EditText
+		android:hint = "진단을 입력하세요"
+		android:id="@+id/edtDiagnosis"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<RadioGroup
+	android:id="@+id/rdoGroupMedicine"
+	android:orientation = "horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+		<RadioButton
+			android:text="약 처방"
+			android:id="@+id/rdoMedicine"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor = "#000000"/>
+		<RadioButton
+			android:text="약 처방 없음"
+			android:id="@+id/rdoNotMedicine"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor = "#000000"/>
+	</RadioGroup>
+	
+	
+</LinearLayout>
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<EditText
+		android:id="@+id/edtMedicineDay"
+		android:enabled = "false"
+		android:layout_width="70px"
+		android:layout_height="wrap_content" />
+		<!--android:enabled = "false"-->
+	<TextView
+		android:text="일분 처방"
+		android:textSize = "20sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor = "#000000"/>
+</LinearLayout>
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<RadioGroup
+		android:id="@+id/rdoGroupInjection"
+		android:orientation = "horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<RadioButton
+			android:text="주사 처방"
+			android:id="@+id/rdoInjection"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor = "#000000"/>
+		<RadioButton
+			android:text="주사 처방 없음"
+			android:id="@+id/rdoNotInjection"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor = "#000000"/>
+	</RadioGroup>
+	
+</LinearLayout>
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:id="@+id/txtInjection"
+		android:textSize = "15sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor = "#000000"/>
+</LinearLayout>
+
+<LinearLayout
+	android:gravity = "right"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<Button
+		android:text="완료"
+		android:id="@+id/btnComplete"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<Button
+		android:text="취소"
+		android:id="@+id/btnCanlce"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+</LinearLayout>
+
+
+
+</LinearLayout>

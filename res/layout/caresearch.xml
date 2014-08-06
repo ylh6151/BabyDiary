@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="시,도 선택: "
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"/>
+		<Spinner
+			android:id="@+id/spinDosi"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="지역명 : "
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/edtAddress"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="병원명 : "
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/edtHostpital_Name"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="50dp"/>
+		<Button
+			android:text="검색"
+			android:id="@+id/btnSerch"
+			android:layout_width="50dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="-50dp"/>
+	</LinearLayout>
+
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ListView
+			android:id="@android:id/list"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#000000"/>
+	</LinearLayout>
+
+</LinearLayout>

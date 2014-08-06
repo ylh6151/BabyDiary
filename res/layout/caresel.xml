@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/orangecheck">
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:background="@drawable/titleshot"></ImageView>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="접종 기간 : "
+			android:layout_width="120dp"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/txtMonth"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="예방 접종 : "
+			android:layout_width="120dp"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/txtVac"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="보건소 접종 : "
+			android:layout_width="120dp"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/txtBogun"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="비고 : "
+			android:layout_width="120dp"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/txtEtc"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="접종일자 : "
+			android:layout_width="120dp"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/txtcomdate"
+			android:textSize="17sp" 
+			android:textColor="#000000"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:layout_marginTop="50dip">
+		<Button
+			android:text="돌아가기"
+			android:id="@+id/btnBack"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<Button
+			android:text="접종일자수정"
+			android:id="@+id/btnModify"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<Button
+			android:text="내역삭제"
+			android:id="@+id/btnDelete"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+
+</LinearLayout>

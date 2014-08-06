@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/orangecheck">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="제목 : "
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/edtMemotitle"
+			android:textSize="20sp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<EditText
+			android:hint="메모 내용을 입력하세요"
+			android:id="@+id/edtMemocontent"
+			android:gravity="top"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="-55dp"
+		android:gravity="right">
+		<Button
+			android:text="저장"
+			android:textSize="17sp"
+			android:id="@+id/btnMemoSave"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<Button
+			android:text="취소"
+			android:textSize="17sp"
+			android:id="@+id/btnMemoBack"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<Button
+			android:text="삭제"
+			android:textSize="17sp"
+			android:id="@+id/btnMemoErase"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation = "vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:text="증상은 : "
+		android:textSize = "17sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<TextView
+		android:id="@+id/txtSymptom"
+		android:textSize = "17sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+</LinearLayout>
+
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="진단은 : "
+			android:textSize = "17sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/txtDiagnosis"
+			android:textSize = "17sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="약 처방일 수 : "
+			android:textSize = "17sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/txtMedicineDay"
+			android:textSize = "17sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="주사 처방 : "
+			android:textSize = "17sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/txtInjection"
+			android:textSize = "17sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+</LinearLayout>
