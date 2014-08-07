@@ -100,7 +100,22 @@ public class selCare extends Activity implements OnClickListener {
 			
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
-				String selDate = dp.getYear() + "-"+(dp.getMonth()+1)+"-"+dp.getDayOfMonth();
+				String strMonth = "";
+				String strDay ="";
+				if((dp.getMonth()+1) <10){
+					strMonth = "0"+(dp.getMonth()+1);
+				}else{
+					strMonth = String.valueOf(dp.getMonth()+1);
+				}
+				
+				if((dp.getDayOfMonth()) <10){
+					strDay = "0"+dp.getDayOfMonth();
+				}else{
+					strDay = String.valueOf(dp.getDayOfMonth());
+				}
+				
+				//String selDate = dp.getYear() + "-"+(dp.getMonth()+1)+"-"+dp.getDayOfMonth();
+				String selDate = dp.getYear() + "-"+strMonth+"-"+strDay;
 				UpdateCom(selDate);
 
 				
